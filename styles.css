@@ -1,22 +1,17 @@
 body {
-    background-color: #f6f4f4;
+    background-color: white ;
+    
 }
-
-/* .header {
-    padding: 60px;
-    text-align: center;
-    color:rgb(1, 1, 1);
-    font-size: 20px;
-  } */
 
 .header {
     overflow: hidden;
-    background-color: #f6f4f4;
-    padding: 20px 10px;
+    border-bottom: solid;
+
 }
 
 .header-right {
     float: right;
+    
 }
 
 .header-left {
@@ -24,14 +19,11 @@ body {
 }
 
 .header a {
-    float: left;
     color: black;
-    text-align: center;
     padding: 12px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
     font-family: calibri;
-    line-height: 25px;
     border-radius: 4px;
 }
 
@@ -43,28 +35,46 @@ body {
 .header a.logo {
     align-items: left;
     float: left;
-    margin: 5px 0 0;
   }
 
 img {
-    max-width: 100%;
     height: auto;
   }
 
+.title {
+    text-align: center;
+    font-family: 'Calibri';
+}
+
 .main-container {
-	/* background-color: #beccffe2; */
-	width: 10000px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.sub-main-container {
 	margin: auto;
     text-align: center;
 	
 	display: grid;
-	grid-template-columns: 150px 150px 150px;
+	grid-template-columns: 10% 10% 10%;
 	
-	grid-gap: 150px;
+	grid-gap: 25%;
 }
 
-.category{
-    padding: 10px
+.map {
+    margin: auto;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 5%;
+    border-top: solid;
+    border-width: thin;
+    color: gray;
+
+    display: grid;
+    grid-template-columns: 30% 10% 10%;
+    grid-gap: 25%;
 }
 
 .health-container {
