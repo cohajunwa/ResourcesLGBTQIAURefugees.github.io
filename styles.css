@@ -61,6 +61,35 @@ img {
 	grid-gap: 25%;
 }
 
+.map {
+    margin: auto;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 5%;
+    border-top: solid;
+    border-width: thin;
+    color: gray;
+
+    display: grid;
+    grid-template-columns: 30% 10% 10%;
+    grid-gap: 25%;
+}
+
+.category {
+	padding: 20px;
+	font-size: 30px;
+	font-family:"Calibri";
+	color: white;
+}
+
+.info {
+    font-size: 20px;
+    font-family: "Calibri";
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(305px, 1fr));
@@ -79,6 +108,8 @@ img {
     position: relative;
     text-align: center;
     color: white;
+    font-size: 40px;
+    text-decoration: none;
   }
 
 .centered {
@@ -87,46 +118,3 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-
-.map {
-    margin: auto;
-    text-align: center;
-}
-
-.footer {
-    margin-top: 5%;
-    border-top: solid;
-    border-width: thin;
-    color: gray;
-
-    display: grid;
-    grid-template-columns: 30% 10% 10%;
-    grid-gap: 25%;
-}
-
-.health-container {
-    width: 1000px;
-	margin: 30px auto;
-	
-	display: grid;
-	grid-template-columns: 150px 150px 150px 150px;
-	
-	grid-gap: 30px;
-}
-
-.legal-container {
-    width: 1000px;
-	margin: 30px auto;
-	
-	display: grid;
-	grid-template-columns: 150px 150px;
-	
-	grid-gap: 30px;
-}
-
-.category {
-	padding: 20px;
-	font-size: 30px;
-	font-family: sans-serif;
-	color: white;
-}
