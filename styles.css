@@ -61,6 +61,33 @@ img {
 	grid-gap: 25%;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(305px, 1fr));
+    grid-gap: 5px;
+  }
+  
+.grid>div {
+    font-size: 30px;
+    padding: .5em;
+    color: #ffffff;
+    background: #1c87c9;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
 .map {
     margin: auto;
     text-align: center;
