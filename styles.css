@@ -74,8 +74,8 @@ img {
     color: gray;
 
     display: grid;
-    grid-template-columns: 30% 10% 10%;
-    grid-gap: 25%;
+    grid-template-columns: 10% 10% 10% 10%;
+    grid-gap: 18%;
 }
 
 .category {
