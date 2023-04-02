@@ -88,6 +88,9 @@ img {
 .info {
     font-size: 20px;
     font-family: "Calibri";
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
 }
 
 .grid {
@@ -117,4 +120,9 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  .subtitle {
+    text-align: center;
+    font-family: 'Calibri';
   }
